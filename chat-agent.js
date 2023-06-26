@@ -26,4 +26,4 @@ const executor = AgentExecutor.fromAgentAndTools({
 const res = await executor.run("How many people live in Nigeria in 2023?");
 console.log(res);
 
-// In this example, we want to ask our chat bot how many people live in Nigeria
+// In this example, we want to ask our chat bot how many people live in Nigeria"
