@@ -34,4 +34,9 @@ const chain = new ConversationChain({
     });
 
     console.log(res);
-    
+
+    const res2 = await chain.call({
+        input: "Do you know where I am?",
+    });
+
+    console.log(res2);
