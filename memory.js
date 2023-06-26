@@ -1,4 +1,4 @@
-// In LangChain, we use the concept of Memory to our models so that they remember previous interactions
+// In LangChain, we use the concept of Memory to help models remember previous interactions
 
 import { OpenAI } from "langchain/llms/openai";
 import { BufferMemory } from "langchain/memory";
